@@ -1,0 +1,127 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: 3px solid;
+}
+header{
+    background-image:linear-gradient(rgb(113, 224, 113),yellow);
+    position: relative;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+header p{
+    color: blue;
+}
+header::before{
+    content: "The best and fastest company";
+    color: black;
+    font-weight: bolder;
+    font-style: oblique;
+}
+header::after{
+    content: "Your first choise should be haben";
+    padding-bottom: 20px;
+    padding-right: 20px;
+    color: red;
+    float: right;
+}
+header img{
+    width: 140px;
+    height: 100px;
+    float: left;
+}
+nav{
+background-image:linear-gradient( rgb(129, 231, 226), rgb(152, 243, 152)); 
+margin-top: 95px;
+text-align: center;
+width: 100%;
+position: fixed;
+}
+nav li{
+display: inline-block;
+text-align: center;
+margin-left: 60px;
+font-size: 25px;
+}
+main{
+    background-color: lightgray;
+    border: 5px solid rgb(62, 196, 79);
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    margin-top: 130px;
+    overflow: hidden;
+}
+section{
+    background-color: rgb(234, 235, 222);
+    /* border: 5px solid rgb(42, 133, 34); */
+    padding: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 4px 4px 6px gray;
+    margin-bottom: 10px;
+}
+article{
+    background-color: rgb(238, 237, 213);
+    padding: 10px;
+    display: inline-block;
+    /* border: 5px solid plum; */
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: -4px 4px 6px gray;
+    margin: 10px 0px 10px 0px;
+}
+aside{
+    background-color: rgb(154, 207, 185);
+    width: 33.333%;
+    padding: 5px;
+    margin-top: 10px;
+    float: right;
+    display: inline;
+    border-radius: 30px;
+    box-shadow: -4px 4px 6px gray;
+  
+}
+.col-left{
+    float: left;
+    width: 64.6666%;
+}
+.main-2{
+    background-color: lightgray;
+    border: 5px solid rgb(62, 196, 79);
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    margin-top: 0px;
+    overflow: hidden;
+}
+.column{
+    column-count: 2;
+}
+.column ul li{
+    list-style-type:square;
+}
+footer{
+    background-color: #660000;
+}
+footer p{
+    color: white;
+}
+footer p a{
+    color: yellow;
+}
+.links{
+    column-count: 4;
+}
+.links ul li{
+    list-style-type: none;
+}
+.links ul li a{
+    color: white;
+}
+.links ul li a:hover{
+    background-color: yellow;
+    color: blue;
+    text-decoration: wavy;
+}

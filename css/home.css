@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(226, 236, 181);
+    box-sizing: border-box;
+    margin-top: 0px;
+    padding: 0px;
+    border: 3px solid;
+}
+header{
+    background-image:linear-gradient(rgb(236, 141, 97),rgb(230, 226, 30));
+    position: relative;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+header p{
+    color: blue;
+}
+header::before{
+    content: "The best and fastest company";
+    color: black;
+    font-weight: bolder;
+    font-style: oblique;
+}
+header::after{
+    content: "Your first choise should be haben";
+    padding-bottom: 20px;
+    padding-right: 20px;
+    color: red;
+    float: right;
+}
+header img{
+    width: 140px;
+    height: 100px;
+    float: left;
+}
+nav{
+background-image:linear-gradient( rgb(187, 75, 153), rgb(152, 243, 152)); 
+margin-top: 95px;
+text-align: center;
+width: 100%;
+position: fixed;
+}
+nav li{
+display: inline-block;
+text-align: center;
+margin-left: 60px;
+font-size: 25px;
+}
+main{
+
+}
+.container{
+    margin-top: 110px;
+    border: 10px solid rgb(97, 105, 216);
+}
+.container h1{
+    margin-top: 150px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 3px 2px red;
+    text-decoration-style: wavy;
+}
+.container img{
+    border: 20px solid rgb(233, 84, 153);
+    border-radius: 30px;
+}
