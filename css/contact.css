@@ -46,14 +46,26 @@ text-align: center;
 margin-left: 60px;
 font-size: 25px;
 }
+h1{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+iframe{
+    width: 500px;
+    height: 500px;
+}
 .container{
-    background-color: sandybrown;
+    background-image: linear-gradient(gray,lightgray);
     margin-top: 120px;
+    height: 600px;
+    text-align: center;
     padding: 8px;
 }
 .container form{
     text-indent: inherit;
-    background-color: palegoldenrod;
+    width: 500px;
+    float: right;
+    margin-top: 9px;
     justify-content: space-around;
     padding: 8px;
 }
