@@ -57,3 +57,34 @@ main{
     background-color: rgb(134, 224, 141);
     margin-top: 150px;
 }
+.container img{
+    border: 15px solid rgb(160, 179, 214);
+    border-radius: 45px;
+    margin-left: 250px;
+}
+footer{
+    background-color: wheat;
+}
+footer{
+    background-color: #660000;
+}
+footer p{
+    color: white;
+}
+footer p a{
+    color: yellow;
+}
+.links{
+    column-count: 4;
+}
+.links ul li{
+    list-style-type: none;
+}
+.links ul li a{
+    color: white;
+}
+.links ul li a:hover{
+    background-color: yellow;
+    color: blue;
+    text-decoration: wavy;
+}

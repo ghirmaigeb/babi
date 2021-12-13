@@ -66,3 +66,26 @@ main{
     border: 20px solid rgb(233, 84, 153);
     border-radius: 30px;
 }
+footer{
+    background-color: #660000;
+}
+footer p{
+    color: white;
+}
+footer p a{
+    color: yellow;
+}
+.links{
+    column-count: 4;
+}
+.links ul li{
+    list-style-type: none;
+}
+.links ul li a{
+    color: white;
+}
+.links ul li a:hover{
+    background-color: yellow;
+    color: blue;
+    text-decoration: wavy;
+}
