@@ -89,6 +89,7 @@ footer p{
 }
 footer p a{
     color: yellow;
+    text-decoration: none;
 }
 .links{
     column-count: 4;

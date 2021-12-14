@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Lobster&family=Luxurious+Script&display=swap');
 
 body{
     box-sizing: border-box;
@@ -103,9 +104,12 @@ section{
 
 .one{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-family: 'Luxurious Script', cursive;
 }
 .two{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Lobster', cursive;
 }
 p.three{
     font-size: 18px;
@@ -159,6 +163,7 @@ footer p{
 }
 footer p a{
     color: yellow;
+    text-decoration: none;
 }
 .links{
     column-count: 4;
