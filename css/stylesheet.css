@@ -137,11 +137,15 @@ aside{
     z-index: 1;
   
 }
+iframe{
+    width: 400px;
+    height: 315px;
+}
 .col-left{
     float: left;
     width: 64.6666%;
 }
-.main-2{
+.master-2{
     background-color: lightgray;
     border: 5px solid rgb(62, 196, 79);
     border-bottom-right-radius: 45px;
